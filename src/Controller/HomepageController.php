@@ -14,7 +14,7 @@ class HomepageController extends AppController{
         $this->Auth->allow('index');
     }
 
-
+//this is index purpose
     public function index(){
             $session=$this->request->getSession();
             $user=$session->read('user');
